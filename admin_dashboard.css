@@ -348,29 +348,4 @@ ul :nth-child(7) {
 }
 
 
-/* media query */
-@media screen and (max-width: 768px) {
-
-  .main-content{
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-auto-rows: 1fr;
-    width: 500px;
-    
-  }
-
-  .projects{
-    grid-row: 1 / 2;
-    width: 500px;
-  }
-
-  .announcements{
-    grid-row: 2 / 3;
-  }
-
-  .trending{
-    grid-row: 3 / 4;
-  }
-
-
 }
